@@ -1,0 +1,6 @@
+-Prva strana je register.html - forma za registraciju
+-Druga strana je register.php - validacija podataka unetih u formu,i ako je sve ok daje link za login formu
+-Treca strana je login.html - login forma
+-Cetvrta strana je login.php - validacija login forme,i ako je sve ok pokrece sesiju i daje link za glavnu stranu home page
+-Peta strana je index.php - Home Page.Ako korisnik nije ulogovan ne moze da joj pristupi.Ona sadrzi formu za pretragu,u koju se unosi korisnicko ime(celo ili deo od minimum 4 karaktera).Ako to ime postoji u bazi,podaci ce se ispisati ispod search forme.Ako ne postoji,ispisace se poruka da je rezultat pretrage = 0.Strana sadrzi i Log out link
+-Sesta strana je logout.php - obavestava korisnika da je izlogovan i daje link ka login formi

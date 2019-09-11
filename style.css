@@ -1,0 +1,39 @@
+a{
+	color:navy;
+	font-size:20px;
+}
+a:hover{
+	color:rgb(205,40,95);
+}
+body{
+	background-color:lightblue;	
+}
+#wrapper{
+	background-color:rgb(59,176,179);
+	width:1000px;
+	margin:auto;
+	padding:10px;
+	font-size:16px;
+	font-family:Arial,Helvetica,sans-serif;
+	border-radius:6px;
+}
+#ispis{
+	background-color:rgb(122,191,49);
+	padding:10px;
+	margin:10px;
+	font-size:16px;
+	font-family:Arial,Helvetica,sans-serif;
+	border-radius:6px;
+}
+#linkovi{
+	background-color:rgb(59,176,179);
+	width:1000px;
+	margin: 10px auto;
+	padding:10px;
+	border-radius:6px;
+}
+#ispis input{
+	width:300px;
+	height:40px;
+	font-size:25px;
+}

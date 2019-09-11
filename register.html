@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<div id="wrapper">  <!--wrapper-->
+			<h2>Registracija</h2>
+			<form method="post" action="register.php">
+			<table>
+			<tr><td>E-mail:</td><td><input required type="email" name="email" placeholder="Unesite email adresu"></td></tr>
+			<tr><td>Korisnicko ime:</td><td> <input required type="text" name="username" placeholder="Odaberite korisnicko ime" ></td></tr>
+			<tr><td>Lozinka: </td><td><input required type="password" name="pass" placeholder="Odaberite lozinku"></td></tr>
+			<tr><td>Potvrda lozinke: </td><td><input required type="password" name="pass1" placeholder="Potvrdite lozinku" ></td></tr>	
+			<tr><td></td><td><input type="submit" name="submit" value="Registruj se"></td></tr>
+			</table>
+			</form>
+		</div>  <!--kraj wrappera-->
+
+		<div id='linkovi'>   <!--div linkovi-->
+			<a href='register.html'>Registracija</a><br>
+			<a href='login.html'>Log In</a><br>
+			<a href='index.php'>Home Page</a>
+		</div>
+	</body>
+</html>
